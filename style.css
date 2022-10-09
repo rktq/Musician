@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+a {
+    transition: 0.2s;
+}
+
+
+a:hover{
+    background-color: #E7E7E7;
+    color: #FF4651;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #E7E7E7;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 128px;
+    line-height: 156px;
+    
+    color: #E7E7E7;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* text-align: center; */
+
+    color: #F3F3F3;
+}
+
+p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #E7E7E7;
+
+}
+
+.screen1 {
+    min-width: 1360px;
+    width: 100%;
+    height: 1080px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 137.18%), url(images/guitar_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button{
+    font-family: 'Roboto';
+    background-color: #FF4651;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    border-width: 3px;
+    border-radius: 45px;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+}
+
+.logo {
+    width: 83px;
+    height: 83px;
+}
+
+.header {
+    margin: 0 auto;
+    width: 1360px;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 200px;
+    padding: 0px;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.main_button {
+    font-family: 'Roboto';
+    background-color: #FF4651;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    border-width: 3px;
+    border-radius: 45px;
+    padding: 15px;
+    width: 320px;
+
+}
+
+.mn_btn {
+    text-align: center;
+    margin-top: 53px;
+}
+
+.arrow {
+    text-align: center;
+    margin-top: 290px;
+    font-size: 48px;
+    line-height: 24px;
+    color: #F3F3F3;
+}
+
+.screen2 {
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 60px;
+    min-width: 1360px;
+    
+    display: flex;
+    min-width: 1360px;
+    width: 100%;
+    height: 785px;
+    gap: 60px;
+
+    background: #FFC08A;
+}
+
+
+.title2 {
+    width: 775px;
+    height: 412px;
+    margin-left: 280px;
+    margin-right: 0px;
+    text-align: left;
+    color: #1D1D1D;
+}
+
+.text {
+    width: 550px;
+    height: 160px;
+    margin-left: 286px;
+    text-align: left;
+    color: #1D1D1D;
+    margin-top: 84px;
+}
+
+.lessons {
+    margin-right: 280px;
+    margin-top: 40px;
+}
+
+.les_title{
+    margin-bottom: 40px;
+
+    color: #1D1D1D  ;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 44px;
+}
+
+.instruments1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/guitar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 60px 166px 60px 166px;
+}
+
+.instruments2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/piano.jpg);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 60px 166px 60px 166px;
+}
+
+.instruments3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/drums.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 60px 166px 60px 166px;
+}
+
+
+.placeholder {
+    min-width: 1360px;
+    width: 100%;
+    height: 295px;
+    margin: 0 auto;
+    background: #181818;
+}
+
+.icon {
+    height: 107px;
+    width: 107px;
+    background-color: #FF4651;
+    border-radius: 100px;
+    padding: 20%;
+}
+
+.icon_group {
+    margin-top: 30px;
+    display: flex;
+    height: 200px;
+    min-width: 200px;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+}
+
+.icon_place {
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+} 
+
+.container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} 
+
+.text_icon {
+    text-align: center;
+}
+
+.screen3 {
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    background-image: url(images/micro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 100%;
+}
+
+.screen3 h1 {
+    width: 603px;
+    height: 196px;
+    
+    margin-left: 280px;
+    text-align: left;
+    padding-top: 100px;
+    margin-bottom: 150px;
+}
+
+.screen3 a {
+    margin-left: 280px;
+    width: 340px;
+}
+
+.free {
+    margin-right: 1080px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    margin-bottom: 25px;
+    margin-left: 280px;
+    padding: 5px;
+    width: 550px;
+    border-radius: 30px;
+    border-style: 1px solid; 
+    border-color: #FF4651; 
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 180%;
+    color: #D1D1D1;
+    background: transparent;
+}
+
+input::placeholder {
+    color: #a5a5a5;
+}
+
+.footer {
+    padding-top: 80px;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    background-color: #181818;
+    height: 300px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer h2 {
+    color: #a5a5a5;
+}
+
+.footer p {
+    margin-bottom: 5px;
+    color: #a5a5a5;
+}
+
+
+/* Слайдшоу */
+
+.slide_text{
+    top: 0px; 
+    text-align: left;
+}
+
+.slide_text h1 {
+    color: #1D1D1D;
+    width: 100px;
+    padding-bottom: 45px;
+}
+
+.slide_text h3 {
+    color: #1D1D1D;
+    width: 500px;
+}
+
+.slideshow {
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #FFC08A;
+    padding-bottom: 100px;
+    padding-top: 0;
+}
+
+.slider {
+    margin-left: -40px;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 800px;
+    height: 500px;
+}
+
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn {
+    border: 2px solid #FF4651;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:hover {
+    background: #FF4651;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -60%;
+}
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+}
+
+.navigation-auto div {
+    border: 2px solid #FF4651;
+    padding:  5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background: #FF4651;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background: #FF4651;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background: #FF4651;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background: #FF4651;
+}

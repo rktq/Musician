@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo2.png" type="image/x-icon">
+    <title>Музыкантъ</title>
+</head>
+<body>
+    <div class="screen1">
+
+        <nav class="header">
+            <img class="logo" src="images/logo2.png" alt="Наш логотип">
+            <h2>Музыкантъ</h2>
+            <p>+7(495)846-85-70<br>г. Москва, ул. Московская, д. 37</p>
+            <a href="#" class="button" target="_blank">Записаться бесплатно</a>
+        </nav>
+
+        <h1 class="title">Музыкантъ</h1>
+        <h2 class="subtitle">Мы учим жить музыкой</h2>
+        <p class="mn_btn"><a class="main_button" href="#">Записаться бесплатно</a></p>
+
+        <p class="arrow">&darr;</p>
+
+    </div>
+
+        
+    <div class="screen2">
+        <div class="description">
+            <h1 class="title2">Чему мы можем вас научить</h1>
+            <h3 class="text">Наши программы подготовки подойдут начинающим музыкантам. Вы научитесь разбираться в мазыкальной теории, 
+                работать над музыкальными проектами. Вы получите структурированные знания и познакомитесь с 
+                настоящими музыкантами</h3>
+        </div>
+
+        <div class="lessons">
+            <h2 class="les_title">Программы подготовки:</h2>
+            <ul class="images">
+                <li><h2 class="instruments1">Гитара</h2></li>
+                <li><h2 class="instruments2">Клавишные</h2></li>
+                <li><h2 class="instruments3">Ударные</h2></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div class="slideshow">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+    
+                <div class="slide first">
+                    <img src="images/guitar_mus.jpg" alt="">
+                </div>
+    
+                <div class="slide">
+                    <img src="images/piano_mus.jpg" alt="">
+                </div>
+    
+                <div class="slide">
+                    <img src="images/street_mus.jpg" alt="">
+                </div>
+    
+                <div class="slide">
+                    <img src="images/drum_mus.jpg" alt="">
+                </div>
+    
+    
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+    
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+    
+        <script type="text/javascript">
+            var counter = 1
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++
+                if(counter > 4) {
+                    counter = 1
+                }
+            }, 5000);
+        </script>
+
+        <div class="slide_text">
+            <h1>Научим выступать</h1>
+            <h3>Мы организовываем различные мероприятия для наших студентов, где они могут показать, чему научились за время обучения у нас.</h3>
+        </div>
+    </div>
+
+    
+    <div class="placeholder">
+
+        <div class="icon_place">
+            <div class="container"><div class="icon_group"><img src="images/campfire@2x.png" alt="" class="icon"></div><p class="text_icon">Приятная атмосфера</p></div>
+            <div class="container"><div class="icon_group"><img src="images/rock-music@2x.png" alt="" class="icon"></div><p class="text_icon">Творчество</p></div>
+            <div class="container"><div class="icon_group"><img src="images/ok-hand@2x.png" alt="" class="icon"></div><p class="text_icon">Отдых</p></div>
+            <div class="container"><div class="icon_group"><img src="images/brain@2x.png" alt="" class="icon"></div><p class="text_icon">Развитие</p></div>
+        </div>
+
+    </div>
+
+    <div class="screen3">
+
+        <div class="free">
+            <h1>Запишитесь бесплатно</h1>
+            <div class="input1"><input type="text" name="userName" placeholder="   Как вас зовут"></div>
+            <div class="input2"><input type="text" name="userPhone" placeholder="   +7(999)999-99-99"></div>
+            <a href="#" class="button" target="_blank">Записаться бесплатно</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div><img class="logo" src="images/logo2.png" alt=""></div>
+        <div><h2>Музыкантъ</h2></div>
+        <div><p>Г. Москва, ул. Московская, д. 37.</p></div>
+        <div><p>+7(495)846-85-70</p></div>
+    </div>
+
+
+
+</body>
+</html>
